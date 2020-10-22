@@ -177,6 +177,19 @@ hr.socket{
   p.lead{
     font-size: 1rem;
   }
+  .teams img{
+    width: 200%;
+    border-radius: 50%;
+  }
+  blockquote .svg-inline--fa{
+    color: #4758f3;
+    margin: 1rem;
+  }
+  
+  .team-hr{
+    border-top: 0.05rem solid #4758f3;
+  }
+
 }
 .feature svg.svg-inline--fa{
   color: #4758f3;
@@ -208,6 +221,24 @@ hr.socket{
 .fixed-background p{
   margin-top: 1.5rem;
 }
+
+.teams img{
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+blockquote .svg-inline--fa{
+  color: #4758f3;
+  margin: 1rem;
+}
+
+.team-hr{
+  border-top: 0.05rem solid #4758f3;
+}
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
