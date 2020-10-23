@@ -243,6 +243,27 @@ blockquote .svg-inline--fa{
 }
 
 
+.typing::after{
+  content: "";
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: -20%;
+  border-right: 10px solid blue;
+  animation: blink 0.5s infinite ease;
+}
+
+
+@keyframes blink{
+  0%{
+      opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+ }
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
