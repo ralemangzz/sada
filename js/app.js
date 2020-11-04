@@ -32,4 +32,3 @@ checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
 } );
 
-var scroll = new SmootheScroll('a[href*="#"]');
