@@ -213,10 +213,7 @@ hr.socket{
   background-image: url(./img/apple.png);
   z-index: -1;
 }
-#resources1 {
-  background-image: url(./img/iot2.png);
-  z-index: -1;
-}
+
 .dark{
   background-color: rgb(0, 0, 0, .75);
   color: white;
