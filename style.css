@@ -216,6 +216,7 @@ hr.socket{
 #resources1 {
   background-image: url(./img/iot2.jpg);
   z-index: -1;
+  position: relative;
 }
 .dark{
   background-color: rgb(0, 0, 0, .75);

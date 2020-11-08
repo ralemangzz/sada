@@ -1,4 +1,4 @@
-const texts = ["SADA SERVICE"];
+const texts = ["SADA SERVICES"];
 let count = 0;
 let index = 0;
 let currentText = "";
