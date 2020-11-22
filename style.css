@@ -209,9 +209,9 @@ hr.socket{
   font-size: 1.1rem;
 }
 /* Resources */
-#resources {
+.fixed-background {
   background-image: url(./img/apple.png);
-  z-index: -1;
+ 
 }
 .fixed-background1{
   background-image: url(./img/iot2.png)
