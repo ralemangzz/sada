@@ -483,23 +483,7 @@ logged_out_greeting="¡Bienvenido! En que podemos ayudarte? En breve te antender
 })
 	
   </script>
-    <script class="text/javascript">
-    
-		var setTheme = localStorage.getItem('theme');
-		console.log('theme:', setTheme)
-	
-		if(setTheme == null){
-			swapStyle('light.css')
-		}else{
-			swapStyle(setTheme)
-		}
-	
-		function swapStyle(sheet){
-			document.getElementById('mystylesheet').href = sheet
-			localStorage.setItem('theme', sheet)
-		}
-	
-	  </script>
+   
 	   <script>
         window.fbAsyncInit = function() {
           FB.init({
