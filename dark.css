@@ -302,3 +302,94 @@ blockquote .svg-inline--fa{
     background-color:  rgb(36, 41, 46)!important;
     color: white;
 }
+
+
+main{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px;
+}
+
+.text--medium{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #343442; 
+}
+
+.cards{
+  grid-column: 2 / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 40px;
+}
+
+.card{
+  grid-column-end: span 4;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f7f7;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+
+.card:hover{
+  transform: translateY(-7px);
+}
+
+.card_image-container{
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card_image-container img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card_content{
+  padding: 20px;
+}
+
+.card-title{
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+  .card{
+      grid-column-end: span 4;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  main{
+      grid-gap: 20px;
+  }
+  .card{
+      grid-column-end: span 10;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  main{
+      grid-template-columns: 10px repeat(6, 1fr) 10px;
+      grid-gap: 20px;
+  }
+  .cards{
+      grid-column-end: 2 / span 6;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 20px;
+  }
+  .card{
+      grid-column-end: span 6;
+  }
+}
+
